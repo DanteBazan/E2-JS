@@ -55,7 +55,7 @@ let pizzasImpares = pizzas.filter((pizza) => {
 });
 
 pizzasImpares.forEach((pizza) => {
-  console.log(`Pizza ID: ${pizza.id}, Nombre: ${pizza.nombre}`);
+  console.log(`La pizza con ID impar es: ${pizza.nombre}`);
 });
 
 console.log("/---------------------------------------/");
